@@ -1,5 +1,5 @@
 :root {
-    --theme-color: 0049FF;
+    --theme-color: #0049ff;
     --theme-color2: #2cb624;
     --theme-color3: #0033a0;
     --theme-color4: #1296db;
@@ -174,7 +174,7 @@ h6 {
 
 .h1,
 h1 {
-    font-size: 48px
+    font-size: 46px
 }
 
 .h2,
@@ -9704,7 +9704,7 @@ blockquote cite:before {
     position: absolute;
     left: 40px;
     right: 40px;
-    bottom: 0;
+    bottom: -100;
     padding: 35px 10px 38px 10px;
     background-color: var(--white-color);
     text-align: center;
@@ -12097,3 +12097,12 @@ blockquote cite:before {
         padding-bottom: 50px
     }
 } 
+
+
+
+.lalith-logo{
+    width: 220px !important;
+}
+.header2-logo{
+    width: 220px;
+}

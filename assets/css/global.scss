@@ -4,9 +4,23 @@
 .header1-logo {
     width: 220px;
 }
+.header2-logo{
+    width: 220px !important;
+}
 .h3.text-theme.sec-subtitle{
     color: #fe0000 !important;
 }
 .footer1-logo {
     width: 350px;
+}
+
+
+.header2-logo{
+width: 220px;
+    a{
+        img{
+            width: 200px !important;
+        }
+    }
+ 
 }
