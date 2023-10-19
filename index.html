@@ -729,7 +729,48 @@
             </div>
         </div>
     </footer>
+
+
+
     <a href="#" class="scrollToTop scroll-bottom style2"><i class="fas fa-arrow-alt-up"></i></a>
+
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?35620';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+            "enabled": true,
+            "chatButtonSetting": {
+                "backgroundColor": "#4dc247",
+                "ctaText": "",
+                "borderRadius": "25",
+                "marginLeft": "30",
+                "marginBottom": "50",
+                "marginRight": "0",
+                "position": "left"
+            },
+            "brandSetting": {
+
+                "brandName": "Lalitha priya ortho hospital",
+                "brandSubTitle": "Caring for Your Bones, Restoring Your Life",
+                "brandImg": "assets/images/lalitha priya fav.svg",
+                "welcomeText": "Hi there!\nHow can I help you?",
+                "messageText": "Hello, I have a question about {{page_link}}",
+                "backgroundColor": "#292929",
+                "ctaText": "Start Chat",
+                "borderRadius": "25",
+                "autoShow": false,
+                "phoneNumber": "+919553376457"
+            }
+        };
+        s.onload = function () {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <script src="assets/js/app.min.js"></script>
     <script src="assets/js/vscustom-carousel.min.js"></script>
