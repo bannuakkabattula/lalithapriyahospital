@@ -23,4 +23,12 @@
 }
 .header2-logo a img {
   width: 200px !important;
+}
+
+.header1-logo {
+  width: 220px;
+}
+
+.text-red {
+  color: #fe0000;
 }/*# sourceMappingURL=global.css.map */

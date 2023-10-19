@@ -7591,7 +7591,7 @@ blockquote cite:before {
         width: 425px;
         height: 425px;
         border-radius: 50%;
-        background-color: var(--theme-color4)
+        background-color:#0144db;
     }
     .service-circle__item {
         position: absolute;
@@ -7704,7 +7704,7 @@ blockquote cite:before {
     }
     .service-circle__menu li a:hover,
     .service-circle__menu li.active a {
-        background-color: var(--theme-color2)
+        background-color: #fe0000;
     }
     .service-circle__menu li a:hover img,
     .service-circle__menu li.active a img {
@@ -12104,5 +12104,8 @@ blockquote cite:before {
     width: 220px !important;
 }
 .header2-logo{
+    width: 220px;
+}
+.header1-logo{
     width: 220px;
 }
